@@ -4,9 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"] # Ganti dengan nama dan email Anda
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.8" # Sesuaikan dengan versi Python Anda jika perlu
+python = ">=3.9,<4.0" # Sesuaikan dengan versi Python Anda jika perlu
 pandas = "==2.2.2"
 pymupdf = "==1.24.5"
 pillow = "==10.3.0"
